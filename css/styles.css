@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(44, 44, 44);
+}
+
+main {
+  display: block;
+  margin: 10%;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  background: rgb(49, 48, 48);
+  color: white;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+main p {
+  text-align: center;
+  margin: 1.5em;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  margin: auto;
+  padding-top: 1em;
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#img-div {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#img-caption {
+  color: black;
+  margin: 15px;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+#tribute-info {
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+#headline {
+  font-size: 1.5rem;
+  margin: 4em;
+}
+
+ul {
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  max-width: 550px;
+  padding-left: 40px;
+}
+
+li {
+  margin: 20px;
+}
+
+#wiki-entry {
+  padding: 4em;
+}
+
+#tribute-link {
+  color: rgb(150, 34, 204);
+}
+
+#tribute-link:hover {
+  color: rgb(183, 43, 248);
+}
+
+@media (max-width: 500px) {
+  main {
+    margin: auto;
+  }
+}
